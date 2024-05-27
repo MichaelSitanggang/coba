@@ -27,11 +27,10 @@ class _myHomePageState extends State<myHomePage> {
   @override
   Widget build(BuildContext context) {
     Widget scrren() {
-      if (index == 0) {
-        return Scrren1();
-      } else {
+      if (index == 0)
         return Scrren2();
-      }
+      else
+        return Scrren1();
     }
 
     return Scaffold(
